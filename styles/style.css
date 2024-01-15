@@ -31,6 +31,7 @@ a {
 body {
   background-color: var(--Negro);
   color: var(--Blanco);
+  width: 100vw;
 }
 
 header {
@@ -48,23 +49,10 @@ header ul {
 }
 
 main {
-  display: grid;
-
-  place-items: center;
-}
-
-.Greeting {
   display: flex;
-  gap: 10px;
-  border-radius: 20px;
-  width: 1110px;
-  height: 373px;
-  padding: 95px;
+  justify-content: center;
+  align-items: center;
   flex-direction: column;
-  align-items: flex-start;
-  background-color: var(--Blanco);
-  color: var(--Negro);
-  margin-top: 164px;
 }
 
 .Greeting a {
@@ -110,7 +98,7 @@ main {
 }
 
 .about_me {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -134,36 +122,17 @@ main {
 }
 .about_me p,
 .interest p {
-  width: 445px;
+  /* width: 445px; */
   font-size: 20px;
   font-weight: 400;
 }
 
 .projects p {
-  width: 540px;
+  /* width: 540px; */
   font-size: 20px;
   font-weight: 400;
 }
 
-.interest_cards {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  gap: 20px;
-}
-
-.interest_cards article {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 360px;
-  height: 202px;
-  background-color: var(--Stroke);
-  border-radius: 25px;
-  box-shadow: 2px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  font-size: var(--Mediano);
-  font-weight: 700;
-  text-align: center;
-}
 .projects {
   display: grid;
   place-items: center;
@@ -179,16 +148,13 @@ main {
 
 .project_cards article {
   display: flex;
-  width: 100%;
+  /* width: 100%; */
   gap: 30px;
 }
 .project_cards article .image {
   border: 2px solid var(--Blanco);
-  width: 634px;
+  /* width: 634px; */
   height: 332px;
-}
-.project_cards article .info-project {
-  width: 445px;
 }
 
 .get_in_touch {
@@ -198,7 +164,7 @@ main {
   align-items: center;
   text-align: center;
   margin: 240px 0;
-  width: 574px;
+  /* width: 574px; */
   height: 160px;
 }
 
@@ -212,6 +178,7 @@ main {
 
 footer {
   width: 100%;
+  align-items: center;
   display: grid;
   place-items: center;
   gap: 20px;
