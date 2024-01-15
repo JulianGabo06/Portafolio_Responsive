@@ -1,0 +1,101 @@
+/* and (max-width: 1440px) */
+
+@media (max-width: 1205px) {
+  .Greeting {
+    width: 910px;
+    height: 302px;
+    padding: 65px;
+  }
+  .interest_cards article {
+    width: 310px;
+    height: 166px;
+  }
+
+  /* .project_cards article .info_project {
+    width: 588.431px;
+    height: 272.04px;
+  } */
+}
+
+@media (max-width: 1265px) {
+  body {
+    width: 100%;
+  }
+  .project_cards article .image {
+    width: 600px;
+    height: 272.04px;
+  }
+  .project_cards article {
+    width: 80%;
+  }
+  /* .project_cards article .info_project {
+    width: 345px;
+    height: 152px;
+  } */
+}
+
+@media (min-width: 375px) and (max-width: 743px) {
+  header ul {
+    display: none;
+  }
+  .Greeting {
+    width: 90%;
+    height: 340px;
+  }
+  .interest_cards {
+    grid-template-columns: repeat(2, auto);
+  }
+  .about_me {
+    display: grid;
+    place-items: center;
+    justify-content: center;
+    gap: 45px;
+    /*  */
+    margin: 250px 0;
+    /*  */
+  }
+  .interest_cards article {
+    width: 175px;
+    height: 150px;
+  }
+  .project_cards article {
+    display: grid;
+    width: 350px;
+    place-items: center;
+    gap: 30px;
+  }
+  .about_me p,
+  .interest p {
+    width: 370px;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .projects p {
+    width: 322px;
+    font-size: 16px;
+  }
+  .project_cards article .image {
+    border: 2px solid var(--Blanco);
+    width: 327px;
+    height: 332px;
+  }
+}
+
+/* Moviles pequeños */
+@media (min-width: 320px) and (max-width: 374px) {
+}
+/* Moviles estandar */
+@media (min-width: 375px) and (max-width: 424px) {
+}
+/* Moviles Grandes */
+@media (min-width: 425px) and (max-width: 767px) {
+}
+/* Tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+/* Portatiles / Laptops */
+@media (min-width: 1024px) and (max-width: 1439px) {
+}
+/* Dispositivos mas grandes */
+@media (min-width: 1440px) {
+}
