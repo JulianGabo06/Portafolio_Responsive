@@ -183,7 +183,7 @@ footer {
   place-items: center;
   gap: 20px;
   border-top: 1px solid var(--Stroke);
-  padding: 12px 44px;
+  padding: 40px 44px;
 }
 
 footer ul {
